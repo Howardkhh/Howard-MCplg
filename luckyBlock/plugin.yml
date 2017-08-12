@@ -1,0 +1,24 @@
+name: luckyblockplugin
+main: lucky.luckymain
+version: 1.0
+
+commands:
+  getluckyblock:
+    description: gives you a lucky block
+    usage: /getluckyblock
+
+  getbrokensword:
+    description: gives you a broken Sword
+    usage: /getbrokensword
+
+  getnightvisionhelm:
+    description: gives you a night vision helmet
+    usage: /getnightvisionhelm
+
+  getthunderstick:
+    description: gives you a stick that can summon lightning strikes
+    usage: getthunderstick
+
+  getexplosivechestplate:
+    description: gives you a explosive chestplate
+    usage: getexplosivechestplate
