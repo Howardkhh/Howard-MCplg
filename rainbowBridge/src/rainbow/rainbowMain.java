@@ -8,7 +8,7 @@ public class rainbowMain extends JavaPlugin{
     ConsoleCommandSender clogger = this.getServer().getConsoleSender();
 
     public void onEnable(){
-        clogger.sendMessage(ChatColor.GREEN + "rainbowBridge plugin 正在開啟...");
+        clogger.sendMessage(ChatColor.GREEN + "rainbowbridgeplugin 正在開啟...");
 
         getServer().getPluginManager().registerEvents(new events(),this);
 
@@ -18,6 +18,6 @@ public class rainbowMain extends JavaPlugin{
     }
 
     public void onDisable(){
-        clogger.sendMessage(ChatColor.RED + "rainbowBridge plugin 正在關閉...");
+        clogger.sendMessage(ChatColor.RED + "rainbowbridgeplugin 正在關閉...");
     }
 }
