@@ -1,4 +1,4 @@
-package luckyBlock;
+package lucky;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
