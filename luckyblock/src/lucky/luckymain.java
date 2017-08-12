@@ -12,7 +12,7 @@ public class luckymain extends JavaPlugin {
 
     ConsoleCommandSender clogger = this.getServer().getConsoleSender();
     public void onEnable() {
-        clogger.sendMessage(ChatColor.GREEN + "正在開啟...");
+        clogger.sendMessage(ChatColor.GREEN + "luckyblockplugin 正在開啟...");
 
         items.createItems();
 
@@ -28,7 +28,7 @@ public class luckymain extends JavaPlugin {
     }
 
     public void onDisable() {
-        clogger.sendMessage(ChatColor.RED + "正在關閉...");
+        clogger.sendMessage(ChatColor.RED + "luckyblockplugin 正在關閉...");
     }
 
     public void run() {
