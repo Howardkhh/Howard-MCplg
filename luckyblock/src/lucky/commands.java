@@ -1,4 +1,4 @@
-package luckyBlock;
+package lucky;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
